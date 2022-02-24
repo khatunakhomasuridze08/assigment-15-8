@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+textarea {
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: #0A22F4;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 275px;
+    padding-bottom: 72px;
+}
+
+.left_container {
+    width: 679px;
+}
+
+.left_title {
+    font-family: "Helvetica Neue";
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.left_description {
+    font-family: "Helvetica regular";
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 463px;
+    margin-bottom: 58px;
+}
+
+.left_map {
+    margin-bottom: 60px;
+}
+
+.gmap_iframe {
+    border-radius: 15px;
+}
+
+.map_wr iframe {
+    width: 463px;
+    height: 200px;
+    display: block;
+    border-radius: 15px;
+}
+
+.contact_container {
+     display: flex;
+     align-items: center;
+}
+
+.contact_container span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:#FFFFFF;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.contact_container a{
+    font-family: "Helvetica Neue";
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.contact_link {
+    margin-right: 88px;
+}
+
+.right_container {
+    width: 463px;
+}
+
+.contact_form {
+
+}
+
+.contact_form  button{
+    display: block;
+    margin-left:  auto;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    color: #171717;
+    padding: 18px 36px;
+    background-color: #FFFFFF;
+    border-radius: 28px;
+}
+
+.form_row {
+   margin-bottom: 40px;
+}
+
+.form_row label {
+    display: block;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.form_row input {
+    display: block;
+    width: 100%;
+    font-family: "Helvetica regular";
+    font-size: 16px;
+    background: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.form_row textarea {
+    display: block;
+    width: 100%;
+    height: 110px;
+    font-family: "Helvetica regular";
+    font-size: 16px;
+    background: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.left_footer_container{
+    display: flex;
+    align-items: center;
+  
+}
+
+.left_footer_container span {
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.right_footer_container {
+    display: flex;
+    align-items: center;
+}
+
+.right_footer_container span {
+    font-family: "Helvetica Neue";
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+
